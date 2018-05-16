@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base -->
+    <string name="app_name">ListView Dinâmica</string>
+
+    <!-- MainActivity -->
+    <string name="br_ipt_item">Item</string>
+
+    <!-- ContextMenu -->
+    <string name="br_menu_edit_item">editar</string>
+    <string name="br_menu_delete_item">deletar</string>
+
+    <!-- GenericStrings -->
+    <string name="btn_add">+</string>
+
+</resources>

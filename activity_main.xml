@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite1"
+    tools:context="seupacoteaqui.listviewdinamica.MainActivity">
+
+    <EditText
+        android:id="@+id/ipt_item_name"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:background="@color/colorWhite2"
+        android:hint="@string/br_ipt_item"
+        android:inputType="textCapSentences"
+        android:maxLength="20"
+        android:paddingLeft="15dp"
+        android:textColor="@color/colorGray3"
+        android:textColorHint="@color/colorGray1"
+        android:textSize="@dimen/text_regular"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/btn_add_item"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_add_item"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="@color/colorWhite2"
+        android:text="@string/btn_add"
+        android:textColor="@color/colorGray1"
+        android:textSize="@dimen/text_extra_large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ipt_item_name"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/lst_item"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="56dp"
+        android:background="@color/colorWhite1"
+        android:choiceMode="multipleChoice"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

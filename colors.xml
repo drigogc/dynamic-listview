@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- base -->
+    <color name="colorAccent">#484848</color>
+    <color name="colorPrimary">#A55EEA</color>
+    <color name="colorPrimaryDark">#8F3CDF</color>
+
+    <!-- interface -->
+    <color name="colorBlack1">#000000</color>
+    <color name="colorGray1">#ABABAB</color>
+    <color name="colorGray2">#6A6A6A</color>
+    <color name="colorGray3">#484848</color>
+    <color name="colorGray4">#3C3C3C</color>
+    <color name="colorWhite1">#FFFFFF</color>
+    <color name="colorWhite2">#F0F0F0</color>
+
+</resources>
